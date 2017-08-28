@@ -1,0 +1,13 @@
+class {
+  handleButtonClick(event, el) {
+    console.log('app-button Clicked!')
+  }
+  onMount(){
+    // console.log('Hello, the onMount() function just occured')
+  }
+}
+
+<input 
+  type="button" 
+  value="${input.buttonTxt}" 
+  on-click("handleButtonClick")>
